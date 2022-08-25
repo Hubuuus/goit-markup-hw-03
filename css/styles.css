@@ -4,6 +4,9 @@ body {
   font-weight: 500;
   color: #757575;
 }
+* {
+  margin: 0px;
+}
 
 .not-dot {
   list-style-type: none;
@@ -175,9 +178,9 @@ body {
 }
 .in-line-flex-child-one {
   display: flex;
+  width: 80px;
   align-items: center;
-  margin-left: 0px;
-  padding: 0px;
+  padding-top: 24px;
 }
 .in-line-flex-child-one > :not(:first-child) {
   padding-left: 46px;
@@ -189,7 +192,6 @@ body {
   border-bottom: 1px solid #ececec;
   height: 80px;
 }
-
 .in-line-flex-child-two {
   display: flex;
   align-items: center;
