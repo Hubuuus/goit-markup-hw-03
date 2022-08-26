@@ -167,12 +167,12 @@ body {
 }
 .in-line-flex {
   display: flex;
+  flex-direction: row;
   gap: 46px;
   justify-content: space-between;
 }
 .in-line-flex-child-one {
   display: flex;
-  width: 80px;
   align-items: center;
   padding-top: 24px;
 }
@@ -182,17 +182,18 @@ body {
 .in-line-flex-child-one > :first-child {
   padding-right: 93px;
 }
+
+.in-line-flex-child-two {
+  display: flex;
+
+  /* align-items: center; */
+  gap: 50px;
+  padding-right: 12px;
+}
 .border-header {
   border-bottom: 1px solid #ececec;
   height: 80px;
   width: 100%;
-}
-.in-line-flex-child-two {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-  padding-right: 12px;
-  margin: 0px;
 }
 .first-heading-background {
   background: var(--brand-background-color);
